@@ -1,4 +1,42 @@
+#-------------------------------------------------------------------------------
+# Name:        Rock / Paper / Scissors game
+# Purpose:     Fun
+#
+# Author:      nicolescu
+#
+# Created:     4/11/2021
+# Copyright:   (c) nicol 2021
+# Licence:     <your licence>
+#-------------------------------------------------------------------------------
+
 import random
+logo = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)     '''
+
+print(logo)
+
+
+
+
 print("Welcome to ROCK, PAPER, SCISSORS game!")
 print("Select 1 = Rock, 2 = Paper, 3 = Scissors")
 select = int(input("Select: "))
